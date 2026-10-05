@@ -1,0 +1,17 @@
+{
+  "name": "the-speckled-band",
+  "version": "1.0.0",
+  "description": "An interactive Sherlock Holmes mystery: investigate, collect clues and solve The Adventure of the Speckled Band.",
+  "private": true,
+  "scripts": {
+    "start": "npx http-server . -p 8080 -c-1 -s",
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.48.0",
+    "http-server": "^14.1.1"
+  },
+  "license": "MIT"
+}
